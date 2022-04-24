@@ -1,19 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
-import Uploader from './Uploader';
+import React,{useState} from "react";
+import UploadFile from "./UploadFile";
 
-function App({ store, persistor }) {
-
-  return (
-  <Provider store={store, persistor}>
-    <PersistGate persistor={persistor}>
-      <Uploader />
-      {/* <FileList /> */}
-    </PersistGate>
-  </Provider>
-  );
+function App() {
+  	return (
+		<div>
+			<UploadFile />
+		</div>
+  	);
 }
 
 export default App;
