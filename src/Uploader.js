@@ -11,11 +11,11 @@ import { portfolios } from "./store/financierDashboard";
 
 // import { PersistGate } from "redux-persist/integration/react";
 
-const S3_BUCKET ='acennadevtestbucket';
+const S3_BUCKET ='';
 // const S3_BUCKET ='acennatestbucket';
-const REGION ='ap-south-1';
-const ACCESS_KEY ='AKIAWKPPZCPB4N7VL3Z3';
-const SECRET_ACCESS_KEY ='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';
+const REGION ='';
+const ACCESS_KEY ='';
+const SECRET_ACCESS_KEY ='';
 
 // const config = {
 //     bucketName: S3_BUCKET,
@@ -25,10 +25,10 @@ const SECRET_ACCESS_KEY ='N+YRjDMsk+4QIgJS0XnZbgtfvvjcuAau5W7ICv7y';
 // }
 
 const config = {
-    bucketName: 'fileuploadsayeed',
-    region: 'ap-south-1',
-    accessKeyId: 'AKIA4BQMUAZRZ742TBLR',
-    secretAccessKey: '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',
+    bucketName: '',
+    region: '',
+    accessKeyId: '',
+    secretAccessKey: '',
 }
 
 function Uploader(props) {
